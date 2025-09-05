@@ -1,1 +1,21 @@
-{"name": "531_app","version": "1.0.0","private": true,"dependencies": {"react": "^18.0.0","react-dom": "^18.0.0"},"devDependencies": {"typescript": "^4.0.0"},"scripts": {"start": "react-scripts start","build": "react-scripts build"}}
+{
+  "name": "531_app",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://noahlensink.github.io/531_app",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
