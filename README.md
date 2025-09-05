@@ -1,2 +1,9 @@
-# 531_app
-This app automatically generates a month program for your powerlifting workouts using the 5-3-1 method. Full transparency: made by chatGPT
+# 5/3/1 Planner
+
+This is a progressive strength training planner based on the 5/3/1 method.
+
+## Usage
+
+1. Clone the repo
+2. Run `npm install`
+3. Start with `npm start`
